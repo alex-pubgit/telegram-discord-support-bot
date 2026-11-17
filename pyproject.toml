@@ -1,0 +1,83 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "supportbot"
+dynamic = ["version"]
+description = "Support bot for Telegram and Discord communities: answers from your docs, hands off to a human when unsure, removes leaked seed phrases."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Alex" }]
+keywords = ["telegram", "discord", "support-bot", "faq", "bm25", "seed-phrase", "web3"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Communications :: Chat",
+]
+dependencies = [
+    "httpx2>=2.16,<3",
+    "python-dotenv>=1.2,<2",
+]
+
+[project.optional-dependencies]
+telegram = ["aiogram>=3.32,<4"]
+discord = ["discord.py>=2.7,<3"]
+anthropic = ["anthropic>=2.10,<3"]
+all = ["supportbot[telegram,discord,anthropic]"]
+dev = [
+    "supportbot[all]",
+    "pytest>=9.2,<10",
+    "pytest-asyncio>=1.5,<2",
+    "ruff==0.17.5",
+]
+
+[project.scripts]
+supportbot = "supportbot.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/alex-pubgit/telegram-discord-support-bot"
+
+[tool.hatch.version]
+path = "src/supportbot/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/supportbot"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+addopts = "-ra"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = [
+    "E",    # pycodestyle errors
+    "W",    # pycodestyle warnings
+    "F",    # pyflakes
+    "I",    # import order
+    "N",    # naming
+    "UP",   # modern syntax for the target version
+    "B",    # likely bugs
+    "C4",   # comprehensions
+    "SIM",  # simplifications
+    "PTH",  # pathlib instead of os.path
+    "S",    # security checks (bandit)
+    "RUF",  # ruff-specific rules
+]
+
+[tool.ruff.lint.per-file-ignores]
+# Tests use assert, and build throwaway tokens and local servers on purpose.
+"tests/**" = ["S101", "S105", "S106"]
