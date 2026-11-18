@@ -1,0 +1,18 @@
+# A short session in a community group. Replay it with:
+#   supportbot simulate --script examples/demo.script
+
+alice: @bot How much is the bridge fee?
+bob: gm everyone
+bob: @bot When will ACME be listed on an exchange?
+carol: @bot Someone offered a wallet validation tool to fix my balance, is that real?
+dave: @bot should I buy ACME now?
+
+# The phrase below is the public BIP-39 test vector for all-zero entropy. It protects nothing.
+erin: help, my wallet words are abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon about
+
+# A transaction hash has the same shape as a private key. It is public, so it stays.
+frank: my bridge tx 0x9f2c4a7be1d3058c6fa1b2e47d90c3a85b6e1f42d7c9083a5e4b1c6d2f7a8e90 has been pending for 2 hours
+
+mia (mod): /tickets
+mia (mod): /resolve 1
+mia (mod): /stats
