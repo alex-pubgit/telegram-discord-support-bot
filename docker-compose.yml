@@ -1,0 +1,25 @@
+services:
+  telegram:
+    build: .
+    command: ["supportbot", "run", "telegram"]
+    env_file: .env
+    environment:
+      SUPPORTBOT_DB: /data/telegram.sqlite3
+    volumes:
+      - botdata:/data
+    restart: unless-stopped
+
+  # Start with: docker compose --profile discord up --build
+  discord:
+    build: .
+    command: ["supportbot", "run", "discord"]
+    env_file: .env
+    environment:
+      SUPPORTBOT_DB: /data/discord.sqlite3
+    volumes:
+      - botdata:/data
+    restart: unless-stopped
+    profiles: ["discord"]
+
+volumes:
+  botdata:
