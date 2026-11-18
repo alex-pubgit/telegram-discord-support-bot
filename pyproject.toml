@@ -30,8 +30,7 @@ dependencies = [
 [project.optional-dependencies]
 telegram = ["aiogram>=3.32,<4"]
 discord = ["discord.py>=2.7,<3"]
-anthropic = ["anthropic>=2.10,<3"]
-all = ["supportbot[telegram,discord,anthropic]"]
+all = ["supportbot[telegram,discord]"]
 dev = [
     "supportbot[all]",
     "pytest>=9.2,<10",
