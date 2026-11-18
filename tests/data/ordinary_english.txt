@@ -1,0 +1,72 @@
+# Ordinary English paragraphs for the leak detector's false-positive test.
+# One paragraph per block, blocks separated by a blank line. Lines starting with # are ignored.
+# The texts are written for this test: everyday chat, support questions and plain prose,
+# including sentences that are dense with common words that also appear in the BIP-39 list.
+
+Hello everyone, I just joined the group and I have a quick question about the bridge. I moved some tokens from one network to another about ten minutes ago and the balance still shows zero. Is that normal or should I be worried?
+
+Thanks for the fast reply. I will wait a bit longer and check again after lunch. If the transfer does not arrive within the hour I will come back with the transaction hash.
+
+Can someone explain what slippage means? I tried to swap a small amount this morning and the app told me the price moved too much, so the swap did not go through. I only lost the gas fee but I would like to understand what happened.
+
+You can make this change any time you want, and you will not lose your place in the queue. Just open the menu, pick the item you need, and press the green button when you are ready.
+
+I think the team should add a dark mode. The current screen is very bright at night and my eyes get tired after an hour of reading charts. A simple switch in the settings would be enough.
+
+Good morning all. Coffee first, then charts. Has anyone looked at the new staking page? The layout is much cleaner than the old one, but I could not find the button to claim my rewards.
+
+My friend told me that he keeps his savings in three different places so that one mistake cannot wipe out everything. That sounds like a lot of work, but after last year I understand why people do it.
+
+The weather here has been strange this week. Monday was warm enough to sit outside, Tuesday brought heavy rain, and today there is frost on the grass. I had to scrape ice off the car before I could drive to the office.
+
+We are planning a small community meetup next month. There will be pizza, a short talk about wallet safety, and plenty of time to ask questions. Bring a friend if you like, the room is large enough for forty people.
+
+When you write to support, please include the network you used, the time of the swap, and the public address of your wallet. Never include your password or anything else that only you should know.
+
+I have been using this app since the first public test. Back then it could only swap two tokens and the fee was shown in a tiny grey font that nobody could read. It is nice to see how far it has come.
+
+Does anyone know a good book about the history of money? I read one about ancient coins last summer and it was more exciting than I expected. The chapter on how people learned to trust paper notes was my favorite.
+
+Please stop posting the same picture of a rocket every five minutes. We all like a good joke, but it pushes real questions out of view and the new people cannot find the answers they need.
+
+moon moon moon moon moon moon moon moon moon moon moon moon moon moon moon moon moon moon moon moon
+
+soon soon soon very soon, that is all they ever say, soon soon soon soon soon soon soon soon soon soon
+
+Step one, open your wallet. Step two, choose the network at the top of the screen. Step three, enter the amount you want to send. Step four, check the address twice. Step five, confirm and wait for the green tick.
+
+Our cat has decided that the keyboard is the warmest spot in the house. Every time I sit down to work she walks across the desk, sits on the laptop and stares at me until I give up and move to the kitchen table.
+
+The old bridge over the river was closed for repair last spring. Since then the bus takes a longer route through the valley, which adds twenty minutes to my trip but gives me a beautiful view of the hills in the morning light.
+
+To be honest I do not understand why gas is so expensive today. Yesterday a simple transfer cost me a few cents and now the same action costs more than a cup of coffee. Is there some big event going on?
+
+Quick tip for new members: write your questions in one message instead of five short ones. It is much easier for the helpers to read, and you will usually get a better answer on the first try.
+
+I enjoy long walks in the forest near my home. The air is clean, the birds sing all day, and after an hour among the trees every problem at work seems a little smaller than before.
+
+The teacher asked each child to bring an object that begins with the first letter of their name. Anna brought an apple, Ben brought a ball, Clara brought a candle and Daniel, who forgot, brought only a nervous smile.
+
+There is no need to rush. Read the screen, check the amount, check the address, and only then press the button. Most mistakes happen when people try to do everything in ten seconds.
+
+Has the reward rate changed again? Last week the page showed one number and today it shows another. I am not angry, I only want to know how often I should expect it to move.
+
+My order arrived this morning. The box was a little damaged at one corner, but the item inside is fine and works exactly as described. I would buy from this shop again.
+
+We tried the new pasta place on the corner last night. The sauce was rich, the bread was warm, and the price was fair. The only problem was the noise: we had to shout to hear each other across the table.
+
+If your screen is frozen, close the app, wait a few seconds and open it again. Your funds are not kept inside the app, so nothing is lost when it crashes. They stay in your wallet the whole time.
+
+I am trying to learn a little of the language before our trip in the autumn. So far I can order food, ask for the bill and say that I am lost, which my wife says covers most of what I will need.
+
+One more thing before I go offline: thank you to the people who answer questions here every day without being paid for it. You make this place far more useful than any manual.
+
+The match ended two to one after extra time. Our team scored first, then gave away a silly goal just before the break, and finally won with a long shot that nobody in the stadium expected to go in.
+
+Could a moderator please pin the message about the upgrade? People keep asking the same thing and the answer scrolls away within minutes. A pinned note at the top would save everyone some time.
+
+He opened the door, looked at the empty room, and felt at once that something was different. The chair stood where it always stood, the clock still showed the wrong time, but the window, which he never opened, was wide open.
+
+I sent a small test amount first, as you suggested, and it arrived in under five minutes. Then I sent the rest and that also went through without any trouble. Thank you for the advice, it saved me a lot of stress.
+
+Is it safe to use public wifi for this? I travel a lot for work and I am often in airports and hotels. I always check the address in the browser, but I would like to know what else I should pay attention to.
